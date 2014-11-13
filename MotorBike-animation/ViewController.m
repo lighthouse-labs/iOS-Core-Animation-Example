@@ -25,10 +25,6 @@
     self.imageView.center = self.view.center;
     [self.view addSubview:self.imageView];    
     
-    /*CALayer
-    CALayer * l = [self.imageView layer];
-    [l setMasksToBounds:YES];
-    [l setCornerRadius:10];*/
 }
 
 - (void)didReceiveMemoryWarning {
