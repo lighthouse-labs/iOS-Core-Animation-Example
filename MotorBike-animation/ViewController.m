@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) UIImageView *imageView;
+
 @end
 
 @implementation ViewController
@@ -17,6 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Lighthouse"]];
+    [self.imageView setFrame:CGRectMake(0, 0, 200, 200)];
+    self.imageView.center = self.view.center;
+    [self.view addSubview:self.imageView];    
+    
+    /*CALayer
+    CALayer * l = [self.imageView layer];
+    [l setMasksToBounds:YES];
+    [l setCornerRadius:10];*/
 }
 
 - (void)didReceiveMemoryWarning {
