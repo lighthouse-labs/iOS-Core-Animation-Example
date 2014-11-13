@@ -14,6 +14,7 @@
 		AF147C7B1A142A1200A5B1A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF147C7A1A142A1200A5B1A6 /* Images.xcassets */; };
 		AF147C7E1A142A1200A5B1A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF147C7C1A142A1200A5B1A6 /* LaunchScreen.xib */; };
 		AF147C8A1A142A1200A5B1A6 /* MotorBike_animationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF147C891A142A1200A5B1A6 /* MotorBike_animationTests.m */; };
+		AF147C961A14438000A5B1A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF147C951A14438000A5B1A6 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		AF147C831A142A1200A5B1A6 /* MotorBike-animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MotorBike-animationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF147C881A142A1200A5B1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF147C891A142A1200A5B1A6 /* MotorBike_animationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotorBike_animationTests.m; sourceTree = "<group>"; };
+		AF147C951A14438000A5B1A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF147C961A14438000A5B1A6 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		AF147C611A142A1100A5B1A6 = {
 			isa = PBXGroup;
 			children = (
+				AF147C951A14438000A5B1A6 /* QuartzCore.framework */,
 				AF147C6C1A142A1200A5B1A6 /* MotorBike-animation */,
 				AF147C861A142A1200A5B1A6 /* MotorBike-animationTests */,
 				AF147C6B1A142A1200A5B1A6 /* Products */,
